@@ -1,29 +1,19 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
-      "dom",
-      "es2022"
-    ],
+    "lib": ["dom", "es2022"],
     "strict": true,
     "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
-      "@ui/*": [
-        "../../packages/ui/*"
-      ],
-      "@sdk/*": [
-        "../../packages/sdk-js/*"
-      ],
-      "@schemas/*": [
-        "../../packages/schemas/*"
-      ]
+      "@/*": ["src/*"],
+      "@ui/*": ["../../packages/ui/*"],
+      "@sdk/*": ["../../packages/sdk-js/*"],
+      "@schemas/*": ["../../packages/schemas/*"]
     },
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "allowJs": true,
     "skipLibCheck": true,
     "noEmit": true,
@@ -37,11 +27,6 @@
       }
     ]
   },
-  "include": [
-    ".",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": [".", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
