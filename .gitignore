@@ -1,0 +1,18 @@
+# Node / Python / OS
+node_modules/
+pnpm-lock.yaml
+dist/
+.next/
+.env*
+__pycache__/
+*.pyc
+.venv/
+.envrc
+.DS_Store
+.coverage
+htmlcov/
+.mypy_cache/
+*.sqlite
+terraform.tfstate*
+.terraform/
+.env.local

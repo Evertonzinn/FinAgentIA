@@ -1,0 +1,1 @@
+# Load tests (k6) – scripts de estresse para /agent e /v1/scenarios

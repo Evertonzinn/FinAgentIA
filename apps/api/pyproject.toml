@@ -1,0 +1,18 @@
+[project]
+name = "finagent-api"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.111.0",
+  "uvicorn[standard]==0.30.0",
+  "pydantic==2.7.1",
+  "psycopg[binary]==3.1.18",
+  "redis==5.0.4",
+  "alembic==1.13.1",
+  "sqlalchemy==2.0.30",
+  "python-dotenv==1.0.1",
+  "orjson==3.10.3"
+]
+
+[tool.ruff]
+line-length = 100
